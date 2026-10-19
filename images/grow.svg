@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img"><style>
+.g{transform-box:fill-box;transform-origin:50% 100%}.stem{animation:st 9s ease-in-out infinite}.lf{transform-origin:50% 100%;animation:lf 9s ease-in-out infinite}.fl{transform-box:fill-box;transform-origin:50% 50%;animation:fl 9s ease-in-out infinite}.sun{animation:sn 4s ease-in-out infinite alternate}.dr{animation:dr 9s linear infinite}
+@keyframes st{0%{transform:scaleY(0)}35%,92%{transform:scaleY(1)}100%{transform:scaleY(0)}}
+@keyframes lf{0%,28%{transform:scale(0)}45%,92%{transform:scale(1)}100%{transform:scale(0)}}
+@keyframes fl{0%,45%{transform:scale(0) rotate(-90deg)}72%,92%{transform:scale(1) rotate(0)}100%{transform:scale(0) rotate(-90deg)}}
+@keyframes sn{to{transform:scale(1.12)}}@keyframes dr{0%{opacity:0;transform:translateY(-30px)}10%{opacity:.8}30%{opacity:0;transform:translateY(150px)}100%{opacity:0}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}}</style>
+<rect width="400" height="400" rx="28" fill="#FBE4EA"/><circle class="sun" cx="330" cy="70" r="30" fill="#FFE08A" style="transform-box:fill-box;transform-origin:center"/>
+<path d="M60 380 Q200 320 340 380Z" fill="#B58B6B"/>
+<g class="dr" fill="#9CC8EE"><ellipse cx="150" cy="120" rx="4" ry="8"/><ellipse cx="260" cy="100" rx="4" ry="8"/></g>
+<rect class="g stem" x="195" y="150" width="10" height="230" rx="5" fill="#5C8A5A"/>
+<ellipse class="lf" cx="165" cy="290" rx="38" ry="14" transform="rotate(-25 165 290)" fill="#7DB46C"/><ellipse class="lf" cx="238" cy="250" rx="38" ry="14" transform="rotate(25 238 250)" fill="#7DB46C"/>
+<g class="fl"><g fill="#F0709A"><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(0 200 150)" opacity=".92"/><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(45 200 150)" opacity=".92"/><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(90 200 150)" opacity=".92"/><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(135 200 150)" opacity=".92"/><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(180 200 150)" opacity=".92"/><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(225 200 150)" opacity=".92"/><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(270 200 150)" opacity=".92"/><ellipse cx="200" cy="110" rx="22" ry="48" transform="rotate(315 200 150)" opacity=".92"/></g><circle cx="200" cy="150" r="26" fill="#FFD166"/></g></svg>
